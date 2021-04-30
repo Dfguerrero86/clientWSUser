@@ -145,7 +145,13 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <None Include="clientWSUser_TemporaryKey.pfx" />
+    <None Include="Connected Services\wsUser\clientWSUser.wsUser.Persona.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
     <None Include="Connected Services\wsUser\Service1.wsdl" />
+    <None Include="Connected Services\wsUser\Service1.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Connected Services\wsUser\Service11.xsd">
       <SubType>Designer</SubType>
     </None>
