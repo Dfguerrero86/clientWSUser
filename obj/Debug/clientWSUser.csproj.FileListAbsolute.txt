@@ -11,4 +11,4 @@ C:\Users\danny\source\repos\clientWSUser\bin\Debug\clientWSUser.exe.manifest
 C:\Users\danny\source\repos\clientWSUser\bin\Debug\clientWSUser.application
 C:\Users\danny\source\repos\clientWSUser\obj\Debug\clientWSUser.exe.manifest
 C:\Users\danny\source\repos\clientWSUser\obj\Debug\clientWSUser.application
-C:\Users\danny\source\repos\clientWSUser\obj\Debug\clientWSUser.csprojAssemblyReference.cache
+C:\Users\danny\source\repos\clientWSUser\obj\Debug\clientWSUser.Form2.resources

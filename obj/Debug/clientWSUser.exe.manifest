@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="clientWSUser.exe" size="18400">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="clientWSUser.exe" size="25568">
       <assemblyIdentity name="clientWSUser" version="1.0.0.0" language="neutral" processorArchitecture="amd64" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>P2uMih2PHn59fWp++m0/Ow+v8d0WOykBn0Nndvuwxx8=</dsig:DigestValue>
+        <dsig:DigestValue>xyYxb4vTQjxAKuCMwGxYcyEhKFcgzuUaS9t/gOD9DWo=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
