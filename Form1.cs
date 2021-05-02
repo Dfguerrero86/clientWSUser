@@ -29,10 +29,19 @@ namespace clientWSUser
             }
             if (e.ColumnIndex == 6)
             {
-                wsUser.Service1Client oClient = new wsUser.Service1Client();
-                Int64 res=oClient.deletePersona(dataGridView.Rows[e.RowIndex].Cells[1].Value.ToString());
-                MessageBox.Show(res==1?"Eliminado":"No Eliminado");
-                dataGridView.DataSource = oClient.getPersonas();
+                const string message = "Esta seguro que desea eliminar la persona?";
+                const string caption = "Eliminar Persona Confirmación";
+                var result = MessageBox.Show(message, caption,
+                                             MessageBoxButtons.YesNo,
+                                             MessageBoxIcon.Question);
+
+                if (result == DialogResult.Yes)
+                {
+                    wsUser.Service1Client oClient = new wsUser.Service1Client();
+                    Int64 res = oClient.deletePersona(dataGridView.Rows[e.RowIndex].Cells[1].Value.ToString());
+                    MessageBox.Show(res == 1 ? "La persona fue eliminada correctamente" : "Se presentó un inconveniente al intentar eliminar la persona");
+                    dataGridView.DataSource = oClient.getPersonas();
+                }
             }
         }
 
